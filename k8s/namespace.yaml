@@ -1,0 +1,8 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: jwt-gateway
+  labels:
+    app.kubernetes.io/name: multi-tenant-saas-service
+    app.kubernetes.io/managed-by: kubectl
